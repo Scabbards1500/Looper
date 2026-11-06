@@ -1,0 +1,9 @@
+# Main environment: segmentation, embedding, clustering, residual caching,
+# cross-fit build, held-out eval and analysis. Tested with Python 3.12 and the
+# versions noted on the right.
+torch>=2.4            # tested 2.11.0 (CUDA 13.0)
+transformers>=4.56    # tested 5.5.1; needs the `dtype=` / `logits_to_keep` APIs
+numpy>=1.26           # tested 2.3.5
+scipy>=1.11           # tested 1.17.1
+scikit-learn>=1.4     # tested 1.8.0
+tqdm                  # tested 4.67.3

@@ -1,0 +1,3 @@
+# Separate environment for trace generation (scripts/generate.sh, VLLM_PYTHON).
+vllm>=0.10            # tested 0.20.1 (torch 2.11.0, transformers 5.7.0)
+datasets>=2.18        # tested 4.8.5; loads gsm8k, aqua_rat and MATH from the HF hub

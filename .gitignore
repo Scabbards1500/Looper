@@ -1,0 +1,12 @@
+# Everything a run produces stays out of version control: traces, embeddings,
+# residual caches, steering vectors, fold artifacts, eval rows and reports.
+runs/
+reports/
+*.pt
+*.npz
+*.log
+__pycache__/
+*.pyc
+# Benchmark files are downloaded locally (see data/README.md).
+data/*
+!data/README.md
